@@ -10,9 +10,9 @@ South Africa regularly faces localised disasters — the 2022 KZN floods, fires 
 ## How It Works
 ### 1. Image → Graph Abstraction
       | Concept | Implementation |
-| **Nodes (V)** | Image segmented into a 50 × 50 grid; each cell = one node |
-| **Edges (E)** | Each node connects to its 8 neighbours (horizontal, vertical, diagonal) |
-| **Weights (W)** | Edge cost = terrain classification of the target node |
+    | **Nodes (V)** | Image segmented into a 50 × 50 grid; each cell = one node |
+    | **Edges (E)** | Each node connects to its 8 neighbours (horizontal, vertical, diagonal) |
+    | **Weights (W)** | Edge cost = terrain classification of the target node |
 
 ### 2. Terrain Classification (Task 1)
 - A **Hash Table** stores reference RGB values for known terrain types.
