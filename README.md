@@ -19,11 +19,11 @@ South Africa regularly faces localised disasters — the 2022 KZN floods, fires 
 - Each grid node's colour is sampled and matched to the nearest reference category.
 - Classification drives traversal cost assignment:
 
-| Terrain | Weight |
-| Road | 1 |
-| Vegetation / Grass | 5 |
-| Debris / Unknown | 50 |
-| Water | 1,000 |
+       | Terrain | Weight |
+       | Road | 1 |
+       | Vegetation / Grass | 5 |
+       | Debris / Unknown | 50 |
+       | Water | 1,000 |
 
 ### 3. Pathfinding — Dijkstra's Algorithm (Task 2)
 - Implemented with a **manual Adaptable Priority Queue** (min-heap).
@@ -40,12 +40,12 @@ South Africa regularly faces localised disasters — the 2022 KZN floods, fires 
 
 ## Tech Stack
 
-| Layer | Technology |
-| Language | Java 17+ |
-| GUI | JavaFX |
-| Graph | Custom adjacency-list implementation |
-| Priority Queue | Manual binary min-heap (Adaptable PQ) |
-| Classification | Hash Table (RGB → terrain type) |
+    | Layer | Technology |
+    | Language | Java 17+ |
+    | GUI | JavaFX |
+    | Graph | Custom adjacency-list implementation |
+    | Priority Queue | Manual binary min-heap (Adaptable PQ) |
+    | Classification | Hash Table (RGB → terrain type) |
 
 ## Project Structure
 
