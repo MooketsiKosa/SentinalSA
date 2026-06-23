@@ -49,22 +49,22 @@ South Africa regularly faces localised disasters — the 2022 KZN floods, fires 
 
 ## Project Structure
 
-SentinelSA/
-├── src/
-│   ├── graph/
-│   │   ├── GridGraph.java          # Node/edge construction from image grid
-│   │   ├── AdaptablePQ.java        # Manual priority queue for Dijkstra
-│   │   └── Dijkstra.java           # Shortest-path implementation
-│   ├── classification/
-│   │   ├── TerrainClassifier.java  # Hash table RGB → terrain mapping
-│   │   └── TerrainType.java        # Enum: ROAD, VEGETATION, WATER, DEBRIS
-│   ├── ui/
-│   │   ├── MapCanvas.java          # JavaFX canvas — renders grid + path
-│   │   └── ControlPanel.java       # Sliders, buttons, interaction handlers
-│   └── Main.java
-├── assets/
-│   └── sample_aerial.png           # Example KZN terrain image
-└── README.md
+    SentinelSA/
+    ├── src/
+    │   ├── graph/
+    │   │   ├── GridGraph.java          # Node/edge construction from image grid
+    │   │   ├── AdaptablePQ.java        # Manual priority queue for Dijkstra
+    │   │   └── Dijkstra.java           # Shortest-path implementation
+    │   ├── classification/
+    │   │   ├── TerrainClassifier.java  # Hash table RGB → terrain mapping
+    │   │   └── TerrainType.java        # Enum: ROAD, VEGETATION, WATER, DEBRIS
+    │   ├── ui/
+    │   │   ├── MapCanvas.java          # JavaFX canvas — renders grid + path
+    │   │   └── ControlPanel.java       # Sliders, buttons, interaction handlers
+    │   └── Main.java
+    ├── assets/
+    │   └── sample_aerial.png           # Example KZN terrain image
+    └── README.md
 
 ## Getting Started
 
