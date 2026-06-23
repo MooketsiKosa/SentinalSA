@@ -9,7 +9,7 @@ South Africa regularly faces localised disasters — the 2022 KZN floods, fires 
 **SentinelPath SA** solves this by treating any aerial `.jpg` or `.png` as a live navigable map, classifying terrain by colour, building a weighted graph on-the-fly, and computing the safest path for rescue vehicles in real time.
 ## How It Works
 ### 1. Image → Graph Abstraction
-| Concept | Implementation |
+      | Concept | Implementation |
 | **Nodes (V)** | Image segmented into a 50 × 50 grid; each cell = one node |
 | **Edges (E)** | Each node connects to its 8 neighbours (horizontal, vertical, diagonal) |
 | **Weights (W)** | Edge cost = terrain classification of the target node |
